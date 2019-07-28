@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context="com.kechuang.www.kc.MainActivity">
+
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="8"
+    >
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:layout_gravity="center"
+        android:text="请填写需求信息:"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:paddingTop="20dp"
+        android:text="任务内容:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/helped_content"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:textColor="@color/colorBlack"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="配送地址:"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/helped_address"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:textColor="@color/colorBlack"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="佣金(含物品费用):"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/helped_costs"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:inputType="number"
+        android:textColor="@color/colorBlack"
+        android:padding="5dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="配送时间要求:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/helped_timelimit"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:textColor="@color/colorBlack"
+        android:padding="5dp"
+        android:inputType="text"
+        />
+
+    <Button
+        android:id="@+id/btn_publish"
+        style="?android:textAppearanceSmall"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helped_timelimit"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bg_btn_login"
+        android:text="发      布"
+        android:textColor="#ffa"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

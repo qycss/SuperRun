@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">跑跑计划</string>
+    <string name="Alipay">com.eg.android.AlipayGphone</string>
+    <string name="Wx">com.tencent.mm</string>
+    <string name="title_activity_schema">SchemaActivity</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+</resources>

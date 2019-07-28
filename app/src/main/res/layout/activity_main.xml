@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kechuang.www.kc.MainActivity"
+    android:background="@drawable/bg1">
+
+
+    <LinearLayout
+        android:id="@+id/iv_main_bg"
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg1" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/iv_user"
+            android:layout_marginTop="50dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_user4"/>
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:text="昵称"/>
+
+        <TextView
+            android:id="@+id/tv_userID"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="学号"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/ll_menu1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_personal"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_user3"
+                android:background="@drawable/icon_frame"
+                android:text="个人信息"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_order1"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_order"
+                android:background="@drawable/icon_frame"
+                android:text="订单管理"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_order2"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_order2"
+                android:background="@drawable/icon_frame"
+                android:text="历史订单"
+                android:textSize="15dp"
+                android:gravity="center" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_menu2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_money"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_money2"
+                android:background="@drawable/icon_frame"
+                android:text="支付功能"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_comment"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_comment"
+                android:background="@drawable/icon_frame"
+                android:text="我的评价"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/btn_logout"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_logoff"
+                android:background="@drawable/icon_frame"
+                android:text="退出登录"
+                android:textSize="15dp"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/btn_main_1"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:text="我要跑跑"
+                android:gravity="center"
+                android:button="@null"
+                android:textColor="@color/colorBlack"
+                android:background="@drawable/bg_btn_main"
+                android:drawableTop="@drawable/icon_bulbt2"
+                />
+
+            <RadioButton
+                android:id="@+id/btn_main_2"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/btn_main_1"
+                android:button="@null"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:background="@drawable/bg_btn_main"
+                android:text="帮我跑跑"
+                android:textColor="@color/colorBlack"
+                android:drawableTop="@drawable/icon_magnifier2"
+                />
+
+            <RadioButton
+                android:id="@+id/btn_main_3"
+
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:button="@null"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:text="个人主页"
+                android:gravity="center"
+                android:checked="true"
+                android:textColor="@color/colorBlack"
+                android:background="@color/colorWhite"
+                android:drawableTop="@drawable/icon_user2"/>
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context="com.kechuang.www.kc.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:layout_gravity="center"
+        android:text="修改用户信息:"
+        android:textColor="@color/colorBlue"
+        android:textSize="30dp" />
+
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="学号:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="number"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="昵称:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="text"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="手机号码:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="phone"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="请输入密码:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="密码确认:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_user"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/colorBlack"
+        android:textColorHint="@color/colorDarkGray"
+        />
+
+    <Button
+        android:id="@+id/btn_save2"
+        style="?android:textAppearanceSmall"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helped_timelimit"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_btn_login"
+        android:text="保      存"
+        android:textColor="#ffa"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

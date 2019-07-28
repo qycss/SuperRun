@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    tools:context="com.kechuang.www.kc.MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="60dp"
+        android:layout_gravity="center"
+        android:text="个人信息"
+        android:textColor="@color/colorBlue"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="学号："
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:paddingTop="20dp"/>
+
+    <!--从数据库导入个人信息-->
+
+    <TextView
+        android:id="@+id/ID2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="昵称:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/name2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="手机号:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/phone2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="50dp"
+        android:text="信誉度:"
+        android:textColor="@color/colorBlue"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/credit2"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:paddingBottom="30dp"/>
+
+    <Button
+        android:id="@+id/btn_edit"
+        style="?android:textAppearanceSmall"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helped_timelimit"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_btn_login"
+        android:text="编      辑"
+        android:textColor="#ffa"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>

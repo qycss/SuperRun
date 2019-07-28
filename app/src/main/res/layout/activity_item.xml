@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kechuang.www.kc.HelpView.ItemActivity"
+    android:background="@color/colorBlue"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_item_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/tv_item_detail"
+        android:layout_marginTop="93dp"
+        android:text="订单id:"
+        android:textColor="@color/colorBlack"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:layout_alignStart="@+id/tv_item_detail"
+        android:layout_below="@+id/tv_item_id"
+        android:layout_marginTop="15dp"
+        android:text="title"
+        android:textColor="@color/colorBlack"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_item_detail"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/colorWhite"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="detail"
+        android:textColor="@color/colorBlack"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal"
+        android:layout_alignStart="@+id/tv_item_detail"
+        android:layout_marginRight="50dp"
+        >
+
+        <Button
+            android:id="@+id/btn_acc"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="80dp"
+            android:layout_marginStart="24dp"
+            android:background="@color/colorPrimary"
+            android:text="接受"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="80dp"
+            android:background="@color/colorPrimary"
+            android:text="返回"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
